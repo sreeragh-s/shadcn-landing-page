@@ -78,7 +78,7 @@ export const Navbar = () => {
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 px-5 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center mx-5">
-        Careerspage.co
+        careerspage.co
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
