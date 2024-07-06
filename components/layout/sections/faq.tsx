@@ -31,21 +31,16 @@ const FAQList: FAQProps[] = [
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    value: "item-4",
-  },
-  {
     question:
       "Can I post job openings to multiple job boards through your platform?",
     answer: "We are working on a way to integrate multiple organizations. Stay tuned for updates.",
-    value: "item-5",
+    value: "item-4",
   },
   {
     question:
       "Is there customer support available if I need help with the platform?",
     answer: "Yes, we offer dedicated customer support to assist you with any questions or issues you may encounter. Our support team is available via email, please refer footer for contact details.",
-    value: "item-6",
+    value: "item-5",
   },
 ];
 
