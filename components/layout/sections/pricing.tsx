@@ -30,7 +30,7 @@ const plans: PlanProps[] = [
     price: 0,
     description:
       "Only One Plan for Now.",
-    buttonText: "Its Free No strings attached",
+    buttonText: "Its Free, Get Started Now",
     benefitList: [
       "Post upto 5 Jobs",
       "unlimited Applications",

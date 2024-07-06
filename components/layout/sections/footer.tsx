@@ -71,11 +71,6 @@ export const FooterSection = () => {
               </Link>
             </div>
 
-            <div>
-            <Link href="mailto:sreeragh@bizmo.site" className="opacity-60 hover:opacity-100">
-                Contact Us
-              </Link>
-            </div>
           </div>
 
           {/* <div className="flex flex-col gap-2">
