@@ -21,11 +21,7 @@ export const HeroSection = () => {
 
           <div className=" text-2xl sm:text-4xl md:text-6xl font-bold">
             <h1>
-              Seamlessly
-              <span className="px-2  text-primary ">
-                Streamline  Your 
-              </span>
-              Hiring Process
+              Seamlessly Streamline Your Hiring Process
             </h1>
           </div>
 
