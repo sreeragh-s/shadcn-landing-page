@@ -1,5 +1,5 @@
 "use client";
-import { ChevronsDown, Github, Menu } from "lucide-react";
+import { BriefcaseBusiness, ChevronsDown, Github, Menu } from "lucide-react";
 import React from "react";
 import {
   Sheet,
@@ -76,10 +76,9 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
-      <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 px-5 bg-card">
+      <Link href="/" className="font-bold text-lg flex items-center mx-5">
+        Careerspage.co
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
@@ -181,7 +180,7 @@ export const Navbar = () => {
 
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
-            href="https://github.com/nobruf/shadcn-landing-page.git"
+            href="http://app.bizmo.site/signin/signup"
             target="_blank"
           >
             Sign Up
