@@ -19,7 +19,7 @@ export const HeroSection = () => {
             <span> We are launching soon! </span>
           </Badge>
 
-          <div className=" text-2xl sm:text-4xl md:text-6xl font-bold">
+          <div className=" text-2xl sm:text-4xl md:text-6xl font-bold md:max-w-4xl mx-auto">
             <h1>
               Seamlessly Streamline Your Hiring Process
             </h1>
