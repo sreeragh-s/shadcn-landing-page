@@ -10,46 +10,46 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
+    icon: "PencilRuler",
+    title: "Customizable Career Pages",
+    description:
+      "Easily customize career pages to reflect your company culture and values.", 
+  },
+  {
+    icon: "Goal",  
+    title: "Integrated Applicant Tracking",
+    description:
+      "Manage and streamline candidates seamlessly, from application to hire, with advanced filtering .",
+  },
+  {
+    icon: "BarChart3",
+    title: "Insightful Analytics Dashboard",
+    description:
+      "Gain actionable insights into your recruitment efforts with our intuitive analytics dashboard.",
+  },
+  {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Responsive Mobile Experience",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Ensure a seamless experience for candidates on any device..",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Timer",
+    title: "Efficient Hiring Process",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Save time and effort with candidate management, ensuring a smooth hiring workflow from start to finish.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "BriefcaseBusiness",
+    title: "Job Posting Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
-  },
-  {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
-    description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
-  },
-  {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
-  },
-  {
-    icon: "Newspaper",
-    title: "Clear Headline",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Effortlessly create, manage, and promote job postings. Keep track of all your job openings from a centralized dashboard.",
   },
 ];
 
 export const FeaturesSection = () => {
   return (
-    <section id="features" className="container py-24 sm:py-32">
+    <section id="features" className="container  sm:py-15">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Features
       </h2>
@@ -59,9 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+      From crafting captivating career pages to seamless applicant tracking and insightful analytics, streamline your recruitment strategy with precision and ease..
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -69,7 +67,7 @@ export const FeaturesSection = () => {
           <div key={title}>
             <Card className="h-full bg-background border-0 shadow-none">
               <CardHeader className="flex justify-center items-center">
-                <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
+                <div className="bg-primary/10 p-4 rounded-full mb-4">
                   <Icon
                     name={icon as keyof typeof icons}
                     size={24}

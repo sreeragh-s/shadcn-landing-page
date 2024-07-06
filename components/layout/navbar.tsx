@@ -35,39 +35,43 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#home",
+    label: "Home",
   },
   {
-    href: "#team",
-    label: "Team",
+    href: "#features",
+    label: "Features",
   },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
+  // {
+  //   href: "#contact",
+  //   label: "Contact",
+  // },
   {
     href: "#faq",
     label: "FAQ",
   },
+  {
+    href: "#pricing",
+    label: "Pricing",
+  },
 ];
 
-const featureList: FeatureProps[] = [
-  {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
-  },
-  {
-    title: "Build Trust",
-    description:
-      "Leverages social proof elements to establish trust and credibility.",
-  },
-  {
-    title: "Capture Leads",
-    description:
-      "Make your lead capture form visually appealing and strategically.",
-  },
-];
+// const featureList: FeatureProps[] = [
+//   {
+//     title: "Showcase Your Value ",
+//     description: "Highlight how your product solves user problems.",
+//   },
+//   {
+//     title: "Build Trust",
+//     description:
+//       "Leverages social proof elements to establish trust and credibility.",
+//   },
+//   {
+//     title: "Capture Leads",
+//     description:
+//       "Make your lead capture form visually appealing and strategically.",
+//   },
+// ];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -128,7 +132,7 @@ export const Navbar = () => {
       {/* <!-- Desktop --> */}
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
-          <NavigationMenuItem>
+          {/* <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-card text-base">
               Features
             </NavigationMenuTrigger>
@@ -158,7 +162,7 @@ export const Navbar = () => {
                 </ul>
               </div>
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
 
           <NavigationMenuItem>
             {routeList.map(({ href, label }) => (
@@ -177,11 +181,10 @@ export const Navbar = () => {
 
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
-            aria-label="View on GitHub"
             href="https://github.com/nobruf/shadcn-landing-page.git"
             target="_blank"
           >
-            <Github className="size-5" />
+            Sign Up
           </Link>
         </Button>
       </div>

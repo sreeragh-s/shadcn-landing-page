@@ -18,19 +18,19 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              {/* <Link href="#" className="opacity-60 hover:opacity-100">
                 Github
-              </Link>
+              </Link> */}
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://x.com/sreeragh_s" className="opacity-60 hover:opacity-100">
                 Twitter
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://www.instagram.com/sreeragh.s/" className="opacity-60 hover:opacity-100">
                 Instagram
               </Link>
             </div>
@@ -60,25 +60,26 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Help</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="mailto:sreeragh@bizmo.site" className="opacity-60 hover:opacity-100">
                 Contact Us
               </Link>
+
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#faq" className="opacity-60 hover:opacity-100">
                 FAQ
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Feedback
+            <Link href="mailto:sreeragh@bizmo.site" className="opacity-60 hover:opacity-100">
+                Contact Us
               </Link>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Socials</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
@@ -97,19 +98,19 @@ export const FooterSection = () => {
                 Dribbble
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 Designed and developed by
+            &copy; 2024 developed by
             <Link
               target="_blank"
-              href="https://github.com/leoMirandaa"
+              href="https://bizmo.site"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              Leo Miranda
+              Bizmo
             </Link>
           </h3>
         </section>

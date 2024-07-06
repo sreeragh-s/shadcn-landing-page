@@ -13,21 +13,21 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "How easy is it to customize the career pages?",
+    answer: "No coding skills are required, and you can create stunning career pages that reflect your brand in just a few clicks.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Can I integrate the applicant tracking system with my existing HR software?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "At the moment no but we are working on it. We will be adding more integrations in the future and you can contact us for customized solutions.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Is the platform mobile-friendly for candidates?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Absolutely! Our platform ensures that career pages and application forms are fully responsive, providing a seamless experience for candidates on any device, including smartphones and tablets.",
     value: "item-3",
   },
   {
@@ -37,9 +37,15 @@ const FAQList: FAQProps[] = [
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "Can I post job openings to multiple job boards through your platform?",
+    answer: "We are working on a way to integrate multiple organizations. Stay tuned for updates.",
     value: "item-5",
+  },
+  {
+    question:
+      "Is there customer support available if I need help with the platform?",
+    answer: "Yes, we offer dedicated customer support to assist you with any questions or issues you may encounter. Our support team is available via email, please refer footer for contact details.",
+    value: "item-6",
   },
 ];
 

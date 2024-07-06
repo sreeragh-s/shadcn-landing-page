@@ -17,25 +17,25 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Subdomain with your company name",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Get customized experience with your company name and subdomain .",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Admin Mobile App",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
+      "Get access to our admin mobile app to manage your job postings and candidates.",
+    pro: 1,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
+    title: "Email Integrations",
+    description: "Integrate your email list with us to send job alerts and updates.",
+    pro: 1,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "AI Assistance",
+    description: "Get AI Assistance for your job Description and Candidate selection.",
     pro: 1,
   },
 ];
@@ -71,7 +71,7 @@ export const ServicesSection = () => {
               variant="secondary"
               className="absolute -top-2 -right-3 data-[pro=false]:hidden"
             >
-              PRO
+              Coming Soon
             </Badge>
           </Card>
         ))}

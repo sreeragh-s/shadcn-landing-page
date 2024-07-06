@@ -29,51 +29,51 @@ const plans: PlanProps[] = [
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      "Only One Plan for Now.",
+    buttonText: "Its Free No strings attached",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
-      "Community support",
-      "AI assistance",
+      "Post upto 5 Jobs",
+      "unlimited Applications",
+      "Analytics Access",
+      "support",
+      "AI assistance (coming soon)",
     ],
   },
-  {
-    title: "Premium",
-    popular: 1,
-    price: 45,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
-    benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
-    ],
-  },
-  {
-    title: "Enterprise",
-    popular: 0,
-    price: 120,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
-    benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
-    ],
-  },
+  // {
+  //   title: "Premium",
+  //   popular: 1,
+  //   price: 45,
+  //   description:
+  //     "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+  //   buttonText: "Get starterd",
+  //   benefitList: [
+  //     "4 team member",
+  //     "8 GB storage",
+  //     "Upto 6 pages",
+  //     "Priority support",
+  //     "AI assistance",
+  //   ],
+  // },
+  // {
+  //   title: "Enterprise",
+  //   popular: 0,
+  //   price: 120,
+  //   description:
+  //     "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+  //   buttonText: "Contact US",
+  //   benefitList: [
+  //     "10 team member",
+  //     "20 GB storage",
+  //     "Upto 10 pages",
+  //     "Phone & email support",
+  //     "AI assistance",
+  //   ],
+  // },
 ];
 
 export const PricingSection = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section className="container py-15 sm:py-15">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Pricing
       </h2>
@@ -83,10 +83,11 @@ export const PricingSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+        Its Free for now. What are you waiting for go ahead and break something.
       </h3>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
+      {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4 "> */}
+      <div className="gap-8 lg:gap-4 "> 
         {plans.map(
           ({ title, popular, price, description, buttonText, benefitList }) => (
             <Card
