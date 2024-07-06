@@ -41,14 +41,14 @@ export const HeroSection = () => {
 
             <Button
               asChild
-              variant="secondary"
+              variant="outline"
               className="w-5/6 md:w-1/4 font-bold"
             >
               <Link
-                href="https://github.com/nobruf/shadcn-landing-page.git"
+                href="#features" 
                 target="_blank"
               >
-                Github respository
+                Learn More
               </Link>
             </Button>
           </div>
