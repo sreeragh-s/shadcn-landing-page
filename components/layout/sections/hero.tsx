@@ -9,8 +9,8 @@ import Link from "next/link";
 export const HeroSection = () => {
   const { theme } = useTheme();
   return (
-    <section className="container w-full">
-      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
+    <section className="w-screen px-10">
+      <div className="gap-8 mx-auto py-20 ">
         <div className="text-center space-y-8">
           <Badge variant="outline" className="text-sm py-2">
             <span className="mr-2 text-primary">
@@ -19,17 +19,17 @@ export const HeroSection = () => {
             <span> We are launching soon! </span>
           </Badge>
 
-          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
+          <div className=" text-2xl sm:text-4xl md:text-6xl font-bold">
             <h1>
-            Seamlessly  
+              Seamlessly
               <span className="px-2  text-primary ">
-              Streamline
+                Streamline  Your 
               </span>
-              Your Hiring Process
+              Hiring Process
             </h1>
           </div>
 
-          <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
+          <p className="max-w-screen mx-auto text-xl text-muted-foreground">
             {`We're more than just a careers page builder, optimize every step of your hiring pipeline like never before.`}
           </p>
 
@@ -45,7 +45,7 @@ export const HeroSection = () => {
               className="w-5/6 md:w-1/4 font-bold"
             >
               <Link
-                href="#features" 
+                href="#features"
                 target="_blank"
               >
                 Learn More
@@ -59,11 +59,11 @@ export const HeroSection = () => {
           <Image
             width={1200}
             height={1200}
-            className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
+            className="w-full mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
                 ? "/img3.png"
-                : "/img3-dark.png" 
+                : "/img3-dark.png"
             }
             alt="dashboard"
           />
