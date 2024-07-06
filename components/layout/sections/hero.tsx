@@ -39,7 +39,7 @@ export const HeroSection = () => {
                 href="https://app.careerspage.co/signin/signup"
                 
               >
-                Learn More
+                Get Started
               </Link>
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
